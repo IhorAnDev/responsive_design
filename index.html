@@ -3,37 +3,280 @@
 <!-- оболочка документа, язык содержимого -->
 <html lang="en">
 <!-- заголовок страницы, контейнер для других важных данных (не отображается) -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <!-- заголовок страницы в браузере -->
-    <title> CSS pseudo classes HW </title>
+    <title> Bicycle </title>
 </head>
 <!--отображаемое тело страницы -->
+
 <body>
-<div class="container">
-    <div class="content">
-        <div class="list_block">
-            <ul class="list_one">
-                <li>Put on this page information about your product</li>
-                <li>A detailed description of your product</li>
-                <li>Tell us about the advantages and merits</li>
-                <li>Associate the page with the payment system</li>
-            </ul>
+<div class="wrapper">
+    <main class="page">
+        <header class="header">
+            <div class="header__row">
+                <nav class="header__menu menu">
+                    <div class="menu__icon icon-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu__body">
+                        <ul class="menu__list">
+                            <li><a href="" class="menu__link">about us</a></li>
+                            <li><a href="" class="menu__link">work</a></li>
+                            <li><a href="" class="menu__link">shop</a></li>
+                            <li><a href="" class="menu__link">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header__logo"><img src="img/Logo.png" alt=""></div>
+            </div>
+        </header>
+        <div class="main-screen bg">
+
         </div>
-        <div class="button">
-            <a target="_blank" href="https:\\google.com" class="link">
-                <span>Full Story</span>
-            </a>
+        <div class="content">
+            <section class="generation">
+                <div class="container">
+                    <div class="generation__block block">
+                        <div class="block__icon">
+                            <img src="./img/Icon_b2.png" alt="">
+                        </div>
+                        <h1 class="block__title">A NEW GENERATION OF VINTAGE BIKE</h1>
+                        <div class="block__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="brands">
+                <div class="brands__row">
+                    <div class="brands__column brands__column_b">
+                        <a href="" class="brands__item item">
+                            <span class="item__logo">
+                                <img src="/img/brands_b_logo.png" alt="">
+                            </span>
+                            <span class="item__image bbg">
+                                <img src="" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="brands__column">
+                        <div class="brands__content block">
+                            <div class="block__icon"><img src="/img/brands_icon.png" alt=""></div>
+                            <h2 class="block__title">vintage Oliva</h2>
+                            <div class="block__text block__text_j">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived.
+                            </div>
+                        </div>
+                        <div class="brands__image bsbg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vintage">
+                <div class="vintage__row">
+                    <div class="vintage__column">
+                        <div class="vintage__content block">
+                            <div class="block__icon"><img src="/img/2/icon_s.png" alt=""></div>
+                            <h2 class="block__title">La Boriosa</h2>
+                            <div class="block__text block__text_j">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived.
+                            </div>
+                        </div>
+                        <div class="vintage__image vsbg">
+                        </div>
+                    </div>
+                    <div class="vintage__column vintage__column_b">
+                        <a href="" class="vintage__section section">
+                            <span class="section__logo">
+                                <img src="/img/2/logo_b.png" alt="">
+                            </span>
+                            <span class="section__image vbg">
+                                <img src="" alt="">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="brands brands_last">
+                <div class="brands__row">
+                    <div class="brands__column">
+                        <a href="" class="brands__item item">
+                            <span class="item__logo">
+                                <img src="/img/3/logo_f.png" alt="">
+                            </span>
+                            <span class="item__image lbg">
+                                <img src="" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="brands__column">
+                        <div class="brands__content block">
+                            <div class="block__icon"><img src="/img/3/icon.png" alt=""></div>
+                            <h2 class="block__title">retrò Bike - M. Hulot</h2>
+                            <div class="block__text block__text_j">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived.
+                            </div>
+                        </div>
+                        <div class="brands__image bsbg">
+                        </div>
+                    </div>
+                    <div class="brands__column">
+                        <a href="" class="brands__item item">
+                            <span class="item__logo">
+                                <img src="" alt="">
+                            </span>
+                            <span class="item__image bbg">
+                                <img src="" alt="">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="slider">
+                <div class="container">
+                    <div class="slider__body">
+                        <div class="slider__item">
+                            <div class="slider__icon"><img src="/img/4/Icon.png" alt=""></div>
+                            <h3 class="slider__title">AOD New York @aod <span>/ 35 min</span></h3>
+                            <div class="slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+                                tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium
+                                ante amet.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="shop">
+                <div class="shop__body">
+                    <div class="shop__column shop__column_b">
+                        <div class="shop__block block-shop">
+                            <div class="block-shop__row">
+                                <div class="block-shop__column">
+                                    <a href="" class="block-shop__item block-shop__item_l item">
+                                       <span class="item__logo">
+                                          <img src="/img/7/bike_icon.png" alt="">
+                                          <span>Shop now</span>
+                                       </span>
+                                        <span class="item__image sbg">
+                                            <img src="" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="block-shop__column">
+                                    <a href="" class="block-shop__item block-shop__item_l item">
+                                       <span class="item__logo">
+                                          <img src="/img/7/bike_icon.png" alt="">
+                                          <span>Shop now</span>
+                                       </span>
+                                        <span class="item__image flbg">
+                                            <img src="" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="" class="block-shop__item item">
+                               <span class="item__logo">
+                                 <img src="/img/7/bike_icon.png" alt="">
+                                 <span>Shop now</span>
+                               </span>
+                                <span class="item__image fbbg">
+                                   <img src="" alt="">
+                               </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shop__column">
+                        <a href="" class="block-shop__item block-shop__item_b item">
+                           <span class="item__logo">
+                             <img src="/img/7/bike_icon.png" alt="">
+                             <span>Shop now</span>
+                           </span>
+                            <span class="item__image tsbg">
+                                <img src="" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="shop__column shop__column_r">
+                        <a href="" class="block-shop__item block-shop__item_b item">
+                           <span class="item__logo">
+                             <img src="/img/7/bike_icon.png" alt="">
+                             <span>Shop now</span>
+                           </span>
+                            <span class="item__image sssbg">
+                                <img src="" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="shop__column shop__column_b">
+                        <div class="shop__block block-shop">
+                            <div class="block-shop__row">
+                                <div class="block-shop__column">
+                                    <a href="" class="block-shop__item block-shop__item_l item">
+                                       <span class="item__logo">
+                                          <img src="/img/7/bike_icon.png" alt="">
+                                          <span>Shop now</span>
+                                       </span>
+                                        <span class="item__image tbg">
+                                            <img src="" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="block-shop__column">
+                                    <a href="" class="block-shop__item block-shop__item_l item">
+                                       <span class="item__logo">
+                                          <img src="/img/7/bike_icon.png" alt="">
+                                          <span>Shop now</span>
+                                       </span>
+                                        <span class="item__image sslbg">
+                                            <img src="" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="" class="block-shop__item item">
+                               <span class="item__logo">
+                                 <img src="/img/7/bike_icon.png" alt="">
+                                 <span>Shop now</span>
+                               </span>
+                                <span class="item__image ffffbbg">
+                                   <img src="" alt="">
+                               </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop__footer">
+                    <div class="container">
+                        <a href="" class="shop__btn">DISCOVER THE SHOP</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="form_block">
-            <form action="#" class="text_form">
-                <input type="text" class="text_input">
-            </form>
-        </div>
-    </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+
+                </div>
+            </div>
+        </footer>
+    </main>
 </div>
 </body>
 </html>
